@@ -35,6 +35,8 @@ void submenu(T *animal){
 		   case 4:
 			   animal->ConsoleWrite();
 			   break;
+		   case 5:
+			   return;
 		   }
 		cout << '\n';
 		system("pause");
